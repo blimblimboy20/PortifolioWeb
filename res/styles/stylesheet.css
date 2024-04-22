@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-style: normal;
+  background-color: #121212;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 10px;
+  color: #0E6A00;
+}
+
+h2 {
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+a:link {
+  text-decoration: none; 
+}
+
+a:visited {
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: none; 
+}
+
+a:active {
+  text-decoration: none; 
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+textarea {
+  height: 120px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*            FONTES            */
+/* ============================ */
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* ============================ */
+/*            FONTES            */
+
+/*            NAVBAR            */
+/* ============================ */
+
+.top-navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.top-navbar a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-navbar a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.top-navbar a.active {
+  background-color: #0E6A00;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav-items {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* ============================ */
+/*            NAVBAR            */
+
+/*         UTILITARIOS          */
+/* ============================ */
+
+.w-full {
+  width: 100vw;
+}
+
+.h-max-full {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.border-top-1 {
+  border-top: solid;
+  border-color: #9999;
+  border-width: 1px;
+}
+
+.border-bottom-1 {
+  border-bottom: solid;
+  border-color: #9999;
+  border-width: 1px;
+}
+
+.bg-main {
+  background-color: #121212;  
+}
+
+.content-box {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.align-justify {
+  text-align: justify;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.padding-r-70 {
+  padding-right: 70px;
+}
+
+.icons-holder {
+  padding-top: 40px;
+}
+
+.button-full {
+  width: 150px;
+  height: 50px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #0E6A00;
+  border-width: 2px;
+  background-color: #0E6A00;
+  text-align: center;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.button-full:hover {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #0E6A00;
+}
+
+.button-outline {
+  width: 150px;
+  height: 50px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #0E6A00;
+  border-width: 2px;
+  text-align: center;
+  line-height: 50px;
+  color: #0E6A00;
+}
+
+.button-outline:hover {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.gap-1 {
+  gap: 5px;
+}
+
+.gap-2 {
+  gap: 10px;
+}
+
+.gap-3 {
+  gap: 15px;
+}
+
+.main-container {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.main-sobre {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 190px;
+  padding-right: 190px;
+  text-align: center;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
+
+.color-main {
+  color: #0E6A00;
+}
+
+.list-main {
+  text-align: start;
+  width: fit-content;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.icon:hover {
+  filter: invert(100%) sepia(39%) saturate(2%) hue-rotate(230deg) brightness(109%) contrast(100%);
+}
